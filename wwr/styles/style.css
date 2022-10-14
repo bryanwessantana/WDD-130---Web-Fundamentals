@@ -1,12 +1,17 @@
+@import url(https://www.cssfontstack.com/Papyrus);
+
 /* Setting a width */
 
 #content {
-    max-width: 1600px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 #background {
     height: 725px;
     background-color: lightblue;
+}
+#logo_link {
+    padding-top: 5px;
 }
 
 /* More Centering */
@@ -15,6 +20,7 @@ nav a {
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    max-width: 1024px;
 }
 .button-box {
     text-align: center;
@@ -26,7 +32,14 @@ main section {
 /* Color Backgrounds */
 
 body {
-    background-color: white; 
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:rgba(20,30,13, .7);
@@ -69,10 +82,10 @@ h4 {
     color: white;
 }
 .msg h2 {
-    color: black;
+    color: white;
 }
 .msg p {
-    color: black;
+    color: white;
 }
 footer {
     color: black;
@@ -99,4 +112,73 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+
+/* Import family font-size */
+.home-title {
+    font-family: "Papyrus", "Arial";
+    font-size: 2em;
+    font: bold;
+}
+.book, .join {
+    font-size: 18px;
+}
+.msg p {
+    font-size: .8em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+  }
+
+/* Padding */
+#logo_link {
+    padding-top: 5px;
+}  
+nav a {
+    padding: 35px;
+}  
+.book, .join {
+    padding: 15px 30px;
+}  
+.icon {
+    padding-top: 10px;
+}  
+.msg {
+    padding: 35px;
+}  
+.msg p {
+    padding-bottom: 15px;
+}  
+footer {
+    padding: 25px 50px;
+}  
+footer .social img {
+    padding-top: 15px;
+}  
+
+/* Margin */
+.home-title {
+    margin-top: 10px;
+}  
+.book, .join {
+    margin-top: 50px;
+}  
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}  
+footer {
+    margin-top: 200px;
+}  
+
+/* Adding borders, border radius and box-sizing */
+.book, .join {
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid burlywood;
+}
+main section img {
+    box-sizing: border-box;
 }
