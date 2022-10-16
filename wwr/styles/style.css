@@ -3,7 +3,7 @@
 /* Setting a width */
 
 #content {
-    max-width: 1024px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 #background {
@@ -116,7 +116,7 @@ footer p a:hover {
 
 /* Import family font-size */
 .home-title {
-    font-family: "Papyrus", "Arial";
+    font-family: "Papyrus", "Sans-serif" "Arial";
     font-size: 2em;
     font: bold;
 }
