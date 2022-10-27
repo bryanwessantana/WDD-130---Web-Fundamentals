@@ -3,12 +3,13 @@
                                                 /* Header */
 
 #content {
-    max-width: 1024px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 header {
     display: grid;
     grid-template-columns: 150px auto;
+    background-color: #6f7364;
 }
 nav {
     display: flex;
@@ -223,6 +224,10 @@ footer .social img {
     nav a {
         display: block;
         padding: 15px;
+        color: black
+    }
+    nav a:hover {
+        color: gray;
     }
     #hero {
         margin-top: 0;
