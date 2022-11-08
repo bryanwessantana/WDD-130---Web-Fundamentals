@@ -1,0 +1,58 @@
+                                    /* CSS Code - Challenge Week 09 */
+
+                                                /* Header */
+
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+img{
+    width: 400px;
+}
+
+                                                /* Main */
+
+body {
+    background-color: #fcfcfd;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: scroll;
+}
+h3{
+    margin-top: 30px;
+    color: #415d8c;
+    font-size: medium;
+}
+h1{
+    font-size: 2em;
+    margin-top: -5px;
+}
+h2{
+    color: #8f9299;
+    text-align: center;
+    margin-right: 430px;
+    margin-left: 430px;
+    font-size: 27px;
+    font-weight: normal;
+}
+
+                                                /* Footer */
+
+footer {
+    background-color: #415d8c;
+    width: 420px;
+    margin-left: 420px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    margin-top: 30px;
+}
+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
