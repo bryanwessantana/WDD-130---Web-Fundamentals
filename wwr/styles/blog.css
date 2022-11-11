@@ -110,7 +110,7 @@ img#highlight2 {
     color: black;
     font-size: 15px;
     margin-top: 45px;
-    margin-bottom: -20px;
+    margin-bottom: -10px;
 }
 .highlights {
     background-color: #686966;
@@ -124,7 +124,7 @@ img#highlight2 {
 .wrap {
     text-align: center;
     margin: 5px;
-    margin-top: 80px;
+    margin-top: 70px;
     margin-bottom: 25px;
 }
 .links {
