@@ -1,0 +1,218 @@
+                                /* CSS Code of Lyrics Idiomas Standard Page */
+
+                                                /* Header */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1D3557;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+nav a {
+    width: 100%;
+    color: #F1FAEE;
+    text-decoration: none;
+    text-align: center;
+    padding: 45px;
+    font-weight: bold;
+    font-size: larger;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 120px;
+    margin-left: 15px;
+}
+
+                                                /* Hero */
+
+img#hero-img {
+    width: 100%;
+    margin-top: -300px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0;
+    background: linear-gradient(to top, #1D3557 6%,rgba(0,0,0,0) 8%);
+}
+#hero-msg {
+    grid-column: 3/3;
+    grid-row: 2/3;
+    float: right;
+    font-size: 1em;
+    margin-bottom: 50px;
+    margin-left: -300px;
+    text-shadow: 0.2em 0.2em black;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+                                                /* Main */
+                                            
+body {
+    background-color: #F1FAEE;
+    margin: 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    padding: 0;
+}
+.button-box {
+    text-align: center;
+}
+main a {
+    color: black;
+    font-size: 1.8em;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+.home-title {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* How is your English? */
+#background {
+    height: 600px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 1/4;
+    background-color: #1D3557;
+    margin-top: -30px;
+}
+.standard {
+    box-shadow: 5px 5px 10px black;
+    width: 700px;
+    height: 400px;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.msg {
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    background-color: #A8DADC;
+    padding: 15px;
+    font-size: 1.3em;
+    grid-column: 3/10;
+    grid-row: 2/1;
+    margin-top: 75px;
+    margin-left: 480px;
+    margin-right: 60px;
+}
+.msg p {
+    color: black;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+h3 {
+    color: white;
+    font-size: 2em;
+    grid-column: 5/8;
+    grid-row: 1/2;
+    margin-left: -10px;
+    margin-top: -5px;
+    text-shadow: 0.1em 0.1em black;
+}
+.button-box {
+    background-color: #1D3557;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+    margin-top: -20px;
+    border-radius: 10px;
+}
+.test {
+    color: white;
+}
+
+/* Activities & Games */
+#activities {
+    height: 550px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 4/4;
+    background-color: #A8DADC;
+    margin-top: -25px;
+}
+h4 {
+    color: black;
+    grid-column: 4/10;
+    grid-row: 4/6;
+    font-size: 2em;
+    margin: 0;
+    margin-left: 70px;
+}
+.link-img {
+    width: 300px;
+    height: 300px;
+    border: 12px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.activities-card {
+    width: 400px;
+    grid-column: 2/10;
+    grid-row: 4/6;
+    margin: 50px 0;
+    text-align: center;
+}
+.games-card {
+    width: 400px;
+    grid-column: 7/10;
+    grid-row: 4/6;
+    margin: 50px 0;
+    margin-right: 50px;
+    text-align: center;
+}
+.button {
+    grid-column: 3/10;
+    grid-row: 5/6;
+    padding: 15px;
+    margin-top: -80px;
+    margin-left: 200px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+                                                /* Footer */
+
+footer {
+    background-color: #457B9D;
+    padding: 25px 50px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer .social img {
+    padding-top: 15px;
+}

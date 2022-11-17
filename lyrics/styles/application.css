@@ -1,0 +1,187 @@
+                                /* CSS Code of Lyrics Idioms Application Page */
+
+                                                /* Header */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #1D3557;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2em;
+}
+nav a {
+    width: 100%;
+    color: #F1FAEE;
+    text-decoration: none;
+    text-align: center;
+    padding: 45px;
+    font-weight: bold;
+    font-size: larger;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 120px;
+    margin-left: 15px;
+}
+
+                                                /* Hero */
+
+img#hero-img {
+    width: 100%;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0px;
+    background: linear-gradient(to top, #F1FAEE 10%,rgba(0,0,0,0) 12%);
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+                                                /* Main */
+                                            
+body {
+    background-color: #F1FAEE;
+    margin: 0;
+    font-family: 'Raleway', Arial, sans-serif;
+    padding: 0;
+}
+main a {
+    color: black;
+    font-size: 1.8em;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: auto;
+}
+.home-title {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+/* Students feedback */
+h3 {
+    grid-column: 1/10;
+    grid-row: 1/3;
+    margin-top: -50px;
+    margin-left: -30px;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 0.1em 0.1em rgb(146, 146, 146);
+}
+.traveling {
+    width: 400px;
+    height: 300px;
+    margin-left: 150px;
+    grid-row: 3/3;
+    box-shadow: 0.5em 0.5em black;
+}
+.working {
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 180px;
+    grid-row: 3/3;
+    box-shadow: 0.5em 0.5em black;
+}
+main p {
+    text-align: justify;
+    margin: 20px 10px;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+.wrap {
+    text-align: center;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.links {
+    padding: 0 2px;
+    border-top: 400px solid #000;
+    height: 100px;
+    line-height: 10em;
+    margin-bottom: 0;
+}
+
+/* Applying English */
+#applying {
+    height: 520px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 4/4;
+    background-color: #A8DADC;
+    margin-top: -80px;
+}
+h4 {
+    color: black;
+    grid-column: 3/10;
+    grid-row: 4/6;
+    font-size: 2em;
+    margin: 0px 0;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-shadow: 0.1em 0.1em rgb(146, 146, 146);
+}
+.link-img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 12px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.toefl-card {
+    width: 400px;
+    grid-column: 2/10;
+    grid-row: 4/6;
+    margin: 30px 0;
+    margin-left: 300px;
+    text-align: center;
+}
+.ielts-card {
+    width: 400px;
+    grid-column: 4/10;
+    grid-row: 4/6;
+    margin: 30px 0;
+    text-align: center;
+}
+
+                                                /* Footer */
+
+footer {
+    background-color: #457B9D;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer .social img {
+    padding-top: 15px;
+}
