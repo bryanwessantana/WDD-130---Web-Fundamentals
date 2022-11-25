@@ -63,7 +63,7 @@ img#hero-img {
 body {
     background-color: #F1FAEE;
     margin: 0;
-    font-family: 'Raleway', Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     padding: 0;
 }
 .button-box {
@@ -79,7 +79,7 @@ main a {
 }
 .home-title {
     color: white;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
