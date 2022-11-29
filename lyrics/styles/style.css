@@ -1,4 +1,4 @@
-                                    /* CSS Code of Lyrics Idiomas Home Page */
+                                    /* CSS Code of Lyrics Idiomas */
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap');
 
@@ -36,31 +36,54 @@ nav a {
     margin-left: 15px;
 }
 
-                                                /* Hero */
+                                            /* Hero - General */
 
-img#hero-img {
-    width: 100%;
-}
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -500px;
-    background: linear-gradient(to top, #1D3557 2%,rgba(0,0,0,0) 4%);
-}
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/3;
-    font-size: 2em;
-    margin-top: 520px;
-    margin-left: 80px;
-}
+/* General */
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
 }
 
-                                                /* Main */
+/* Home Page */
+#hero-for-home {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -500px;
+    background: linear-gradient(to top, #1D3557 2%,rgba(0,0,0,0) 4%);
+}
+#hero-msg-for-home {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size: 2em;
+    margin-top: 520px;
+    margin-left: 80px;
+}
+img#hero-img {
+    width: 100%;
+}
+
+/* Standards */
+#hero-for-standards {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: 0;
+    background: linear-gradient(to top, #1D3557 6%,rgba(0,0,0,0) 8%);
+}
+#hero-msg-for-standards {
+    grid-column: 3/3;
+    grid-row: 2/3;
+    float: right;
+    font-size: 1em;
+    margin-bottom: 50px;
+    margin-left: -300px;
+    text-shadow: 0.2em 0.2em black;
+}
+img#hero-img-for-standards {
+    width: 500%;
+}
+
+                                            /* Main - General */
                                             
 body {
     background-color: #F1FAEE;
@@ -81,14 +104,29 @@ main a {
 }
 .home-title {
     color: white;
+    text-shadow: 0.1em 0.1em black;
     font-family: 'Roboto', Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
+    margin-left: 200px;
 }
+
+/* Standards */
+.home-title-for-standards {
+    color: white;
+    text-shadow: 0.1em 0.1em black;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 2em;
+    margin-top: -240px;
+    margin-left: 120px;
+    margin-right: 50px;
+}
+
+                                            /* Main - Home Page */
 
 /* "Who are we?" */
 
-#background {
+#background-for-home {
     height: 580px;
     display: inline-block;
     grid-column: 1/10;
@@ -96,7 +134,7 @@ main a {
     background-color: #1D3557;
     margin-top: -5px;
 }
-.students {
+.students-for-home {
     box-shadow: 5px 5px 10px black;
     width: 850px;
     height: 500px;
@@ -105,7 +143,7 @@ main a {
     margin-left: 50px;
     margin-top: 35px;
 }
-.msg {
+.msg-for-home {
     color: black;
     background-color: #A8DADC;
     grid-column: 4/10;
@@ -127,7 +165,7 @@ h2 {
 
 /* Materials & Meetings */
 
-#cards {
+#cards-for-home {
     height: 450px;
     display: inline-block;
     grid-column: 1/10;
@@ -135,7 +173,7 @@ h2 {
     background-color: white;
     margin-top: 40px;
 }
-.card-img {
+.card-img-for-home {
     width: 100%;
     border: 10px solid #1D3557;
     transition: transform .5s;
@@ -145,21 +183,21 @@ h2 {
     opacity: .8;
     transform: scale(1.1);
 }
-.tutorial-card {
+.tutorial-card-for-home {
     width: 400px;
     grid-column: 1/10;
     grid-row: 3/3;
     margin: 125px 0;
     margin-left: 50px;
 }
-.material-card {
+.material-card-for-home {
     width: 400px;
     grid-column: 4/10;
     grid-row: 3/3;
     margin: 125px 0;
     margin-left: -20px;
 }
-.meeting-card {
+.meeting-card-for-home {
     width: 400px;
     grid-column: 5/10;
     grid-row: 3/3;
@@ -170,7 +208,7 @@ h2 {
 
 /* Students & Professors */
 
-#studies {
+#studies-for-home {
     height: 500px;
     display: inline-block;
     grid-column: 1/10;
@@ -178,7 +216,7 @@ h2 {
     background-color: #A8DADC;
     margin-top: -85px;
 }
-h4 {
+h3 {
     color: black;
     grid-column: 4/10;
     grid-row: 4/6;
@@ -186,24 +224,222 @@ h4 {
     margin: 0;
     margin-top: -50px;
 }
-.study-img {
+.study-img-for-home {
     width: 300px;
     height: 300px;
     border: 12px solid black;
 }
-.grades-card {
+.grades-card-for-home {
     width: 400px;
     grid-column: 2/10;
     grid-row: 4/6;
     margin: 20px 0;
     margin-left: 50px;
 }
-.calendars-card {
+.calendars-card-for-home {
     width: 400px;
     grid-column: 7/10;
     grid-row: 4/6;
     margin: 20px 0;
     margin-right: 140px;
+}
+
+                                            /* Main - Application */
+
+/* Students feedback */
+h4 {
+    grid-column: 1/10;
+    grid-row: 1/3;
+    margin-top: 30px;
+    margin-left: -30px;
+    font-size: 1.8em;
+    text-align: center;
+    text-shadow: 0.1em 0.1em rgb(146, 146, 146);
+}
+.traveling-for-application {
+    width: 400px;
+    height: 300px;
+    margin-left: 150px;
+    grid-row: 3/3;
+    box-shadow: 0.5em 0.5em black;
+}
+.working-for-application {
+    width: 400px;
+    height: 300px;
+    margin-right: 50px;
+    margin-left: 180px;
+    grid-row: 3/3;
+    box-shadow: 0.5em 0.5em black;
+}
+main p {
+    text-align: justify;
+    margin: 20px 10px;
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+.wrap-for-application {
+    text-align: center;
+    margin: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.links-for-application {
+    padding: 0 2px;
+    border-top: 400px solid #000;
+    height: 100px;
+    line-height: 10em;
+    margin-bottom: 0;
+}
+
+/* Applying English */
+#applying-for-application {
+    height: 520px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 4/4;
+    background-color: #A8DADC;
+    margin-top: -80px;
+}
+h5 {
+    color: black;
+    grid-column: 3/10;
+    grid-row: 4/6;
+    font-size: 2em;
+    margin: 0px 0;
+    margin-top: -50px;
+    margin-left: -100px;
+    text-shadow: 0.1em 0.1em rgb(146, 146, 146);
+}
+.link-img-for-application {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+    border: 12px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.toefl-card-for-application {
+    width: 400px;
+    grid-column: 2/10;
+    grid-row: 4/6;
+    margin: 30px 0;
+    margin-left: 300px;
+    text-align: center;
+}
+.ielts-card-for-application {
+    width: 400px;
+    grid-column: 4/10;
+    grid-row: 4/6;
+    margin: 30px 0;
+    margin-left: 30px;
+    text-align: center;
+}
+
+                                            /* Main - Standards */
+
+/* How is your English? */
+#background-for-standards {
+    height: 600px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 1/4;
+    background-color: #1D3557;
+    margin-top: -60px;
+}
+.standard-for-standards {
+    box-shadow: 5px 5px 10px black;
+    width: 700px;
+    height: 400px;
+    grid-column: 1/6;
+    grid-row: 1/3;
+    margin-left: 50px;
+    margin-top: 75px;
+}
+.msg-for-standards {
+    color: black;
+    box-shadow: 5px 5px 10px black;
+    background-color: #A8DADC;
+    padding: 15px;
+    font-size: 1.3em;
+    grid-column: 3/10;
+    grid-row: 2/1;
+    margin-top: 75px;
+    margin-left: 480px;
+    margin-right: 60px;
+}
+.msg p {
+    color: black;
+    font-size: 1.4em;
+    padding-bottom: 15px;
+    text-align: center;
+}
+h6 {
+    color: white;
+    font-size: 2em;
+    grid-column: 5/8;
+    grid-row: 1/2;
+    margin-left: -200px;
+    margin-right: 100px;
+    margin-top: -5px;
+    text-shadow: 0.1em 0.1em black;
+}
+.button-box-for-standards {
+    background-color: #1D3557;
+    box-shadow: 5px 5px 10px black;
+    padding: 15px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+.test-for-standards {
+    color: white;
+}
+
+/* Activities & Games */
+#activities-for-standards {
+    height: 550px;
+    display: inline-block;
+    grid-column: 1/10;
+    grid-row: 4/4;
+    background-color: #A8DADC;
+    margin-top: -25px;
+}
+h1 {
+    color: black;
+    grid-column: 4/10;
+    grid-row: 4/6;
+    font-size: 2em;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.link-img-for-standards {
+    width: 300px;
+    height: 300px;
+    border: 12px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+.activities-card-for-standards {
+    width: 400px;
+    grid-column: 2/10;
+    grid-row: 4/6;
+    margin: 50px 0;
+    text-align: center;
+}
+.games-card-for-standards {
+    width: 400px;
+    grid-column: 7/10;
+    grid-row: 4/6;
+    margin: 50px 0;
+    margin-right: 50px;
+    text-align: center;
+}
+.button-for-standards {
+    grid-column: 3/10;
+    grid-row: 5/6;
+    padding: 15px;
+    margin-top: -80px;
+    margin-left: 160px;
+    border-radius: 10px;
+    text-decoration: underline;
 }
 
                                                 /* Footer */
